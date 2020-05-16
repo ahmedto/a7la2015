@@ -1,0 +1,1463 @@
+﻿
+/*/ www.fb.com/flying1free - Hello one! Main Style /*/ 
+/*/ By || WwW.arab-d.CoM || /*/
+
+
+/* -- || Essentials and Plugins Style || --*/
+
+.tipsy { font-size: 10px; position: absolute;  padding: 5px; z-index: 100000; }
+  .tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+  /* Uncomment for shadow */
+  /*.tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #000; }
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #000; }
+  .tipsy-arrow-s { border-top-color: #000; }
+  .tipsy-arrow-e { border-left-color: #000; }
+  .tipsy-arrow-w { border-right-color: #000; }
+  
+	.tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+.jquery-lightbox-move{display: none; font-size: 0px;}
+
+
+/*/   arab-d.CoM || آ© 2012 By : arab-d.CoM || design and development ..Zipped Size :) ../*/
+.jquery-lightbox-border-top-left{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat 0 0;}.jquery-lightbox-border-top-right{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat right 0;}.jquery-lightbox-border-bottom-left{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat 0 bottom;}.jquery-lightbox-border-bottom-right{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat right bottom;}.jquery-lightbox-button-close{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -154px -23px;}.jquery-lightbox-button-close:hover{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -203px -23px;}.jquery-lightbox-mode-image .jquery-lightbox-button-close{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -30px -29px;}.jquery-lightbox-mode-image .jquery-lightbox-button-close:hover{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -83px -29px;}.jquery-lightbox-buttons .jquery-lightbox-buttons-init{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -32px -82px;}.jquery-lightbox-buttons .jquery-lightbox-buttons-end{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -339px -82px;}.jquery-lightbox-buttons .jquery-lightbox-button-max{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -72px -82px;}.jquery-lightbox-buttons .jquery-lightbox-button-max:hover{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -141px -82px;}.jquery-lightbox-buttons .jquery-lightbox-button-min{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -192px -82px;}.jquery-lightbox-buttons .jquery-lightbox-button-min:hover{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -226px -82px;}.jquery-lightbox-navigator .jquery-lightbox-button-left{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -7px -141px;}.jquery-lightbox-navigator .jquery-lightbox-button-left:hover{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -50px -141px;}.jquery-lightbox-navigator .jquery-lightbox-button-right{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -389px -141px;  right:-1px;}.jquery-lightbox-navigator .jquery-lightbox-button-right:hover{  background: url(http://i39.servimg.com/u/f39/15/53/11/89/jquery10.gif) no-repeat -351px -141px;}
+
+/*/ || REST OF DESIGN || /*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	background-color: #f2f2f2;
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bg10.png");
+	background-position: center top;
+	background-repeat: repeat;
+	padding: 0;
+	margin: 0;
+	color: #8f8f8f;
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 12px;
+	direction: rtl;
+}
+::selection {
+	background: #269eb1;
+	color: #fff;
+}
+::-moz-selection {
+background: #269eb1;
+color: #fff;
+}
+a {
+	text-decoration: none;
+	color: #45B7CA;
+}
+b {
+	color: #fc8900;
+	text-shadow: 1px 1px 0px #2a2a2a;
+}
+a:hover {
+	color: #029fbc;
+}
+img, img a, img a:hover {
+	border: 0px;
+}
+ul, li, ol {
+	list-style: none outside none;
+	padding: 0;
+}
+@font-face {
+	font-family: 'MhgozFontl';
+	src: url('webfonts/MHGOZ-Light.eot');
+	src: url('webfonts/MHGOZ-Light.eot?#iefix') format('embedded-opentype'), url('webfonts/MHGOZ-Light.woff') format('woff'), url('webfonts/MHGOZ-Light.ttf') format('truetype'), url('webfonts/MHGOZ-Light.svg#MHGOZ-Light') format('svg');
+	font-weight: normal !important;
+	font-style: normal !important;
+}
+@font-face {
+	font-family: 'MhgozFontb';
+	src: url('webfonts/mhgozbold.eot');
+	src: url('webfonts/mhgozbold.eot?#iefix') format('embedded-opentype'), url('webfonts/mhgozbold.woff') format('woff'), url('webfonts/mhgozbold.ttf') format('truetype'), url('webfonts/mhgozbold.svg#mhgozbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+h3, h1, h2 {
+	margin: 0px;
+	font-family: "MhgozFontl", Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+}
+.csstrans, .jcarousel-prev, .jcarousel-next {
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+/*/ General Classes /*/
+.w960 {
+	margin: auto;
+	width: 960px;
+}
+.clear {
+	height: 1px;
+	width: 100%;
+	display: block;
+	clear: both;
+}
+.likearticle{
+    width: 645px;
+text-align:center;
+	margin-right:23px;
+}
+.fleft{float:left;}
+.fright{float:right;}
+.btstad {
+    background-color: #E4E4E4;
+    bottom:1px;
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+}
+.ddd{
+    background-image:url(http://i39.servimg.com/u/f39/15/53/11/89/load10.gif);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+/* || Custmization for inputs and others || */
+input[type="password"], select, input[type="text"] {
+    background:#EEEEEE;
+    border-image: url("http://i39.servimg.com/u/f39/15/53/11/89/gradie10.png");
+    border-radius: 3px 3px 3px 3px;
+    border-style: none none solid;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.2) inset;
+    color: #7B7B7B;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 6px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+input[type=reset], input[type="submit"] {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #8F8F8F;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+	cursor:pointer;
+}
+input[type=reset]:hover,input[type="submit"]:hover{color:#029FBC}
+select[multiple="multiple"] {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bg10.png");
+}
+/* { Multy Classes } */
+.filldivwide select {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: center -2px;
+    border: 0 none;
+    border-radius: 3px 3px 3px 3px;
+    color: #F7F7F7;
+    float: left;
+    margin-right: 10px;
+    max-width: 200px;
+    padding: 4px;
+    text-shadow: 1px 1px 0 #1E879E;
+}
+.filldivwide select optgroup {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: center -96px;
+    border: 0 none;
+    padding: 5px;
+}
+.filldivwide select:hover{background-position:center -96px; text-shadow:#7C9B25 1px 1px 0px;}
+#sitestates h1 .show {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/head_u10.png");
+    border-radius: 50% 50% 50% 50%;
+    cursor: pointer;
+    display: block;
+    float: left;
+	background-position:right -24px;
+    height: 24px;
+    width: 24px;
+}
+#sitestates h1 .show:hover{background-position: right top;}
+#sitestates h1 .hide{
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/head_u10.png");
+    border-radius: 50% 50% 50% 50%;
+    cursor: pointer;
+    display: none;
+    float: left;
+	background-position:left -24px;
+    height: 24px;
+    width: 24px;
+}
+#sitestates h1 .hide:hover{background-position: left top;}
+/*/ || Header Layout || /*/
+header {
+	height: 227px;
+}
+/* header nav area */
+header nav {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bgs10.png");
+	background-position: right top;
+	background-repeat: repeat-x;
+	height: 48px;
+	padding-top: 12px;
+	position:fixed;
+	width: 100%;
+	font-family: "MhgozFontl", Tahoma, Geneva, sans-serif;
+	top:0px;
+	z-index:99
+}
+header nav .home {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/logo110.png");
+    background-position: 262px top;
+    display: none;
+    float: right;
+    font-size: 0;
+    height: 41px;
+    margin-left: 10px;
+    margin-top: -3px;
+    width: 122px;
+}
+header nav .home:hover{ background-position:right top;}
+header nav ul li {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sp_vet10.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #959595;
+	float: right;
+	font-size: 15px;
+	line-height: 25px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding-left: 10px;
+	text-shadow: 1px 1px 0 #2B2B2C;
+}
+header nav ul li a {
+	color: #959595;
+}
+header nav ul li a:hover, header nav ul li:hover, header nav ul li:hover a {
+	color: #f7f7f7;
+}
+header nav ul li:last-child {
+	background-image: none;
+}
+/* sub menu */
+header nav ul li ul {
+	background-color: #333333;
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sub_me10.png");
+	background-position: right top;
+	display: none;
+	margin-right: -6px !important;
+	padding: 10px 5px 5px;
+	position: absolute;
+	width: 184px;
+	z-index: 999;
+}
+header nav ul li ul li {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/hr_vet10.png");
+	background-position: right bottom;
+	background-repeat: repeat-x;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	padding-bottom: 4px;
+	width: 165px;
+	color: #959595 !important;
+	;
+}
+header nav ul li ul li a {
+	color: #959595;
+}
+header nav ul li ul li a {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/ullia10.png");
+	background-position: right -7px;
+	background-repeat: no-repeat;
+	padding-right: 13px;
+}
+header nav ul li ul li a:hover, header nav ul li ul li:hover a {
+	background-position: right -32px;
+	color: #4DBECF
+}
+header nav ul li ul li:last-child {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sub_me10.png");
+	background-position: left bottom;
+	margin-bottom: -12px;
+	margin-right: -5px;
+	padding-bottom: 8px;
+	padding-right: 10px;
+	width: 174px;
+}
+header nav span.todo {
+	float: left;
+	width: 200px;
+}
+header nav span.login {
+	display: block;
+	float: left;
+}
+header nav span.login .icon, header nav span.search .icon {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/head_u10.png");
+	background-position: right -139px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 27px;
+	width: 20px;
+	margin-right: 5px;
+}
+header nav span.login .icon:hover {
+	background-position: right -165px;
+}
+header nav span.login a, header nav span.search a {
+	color: #44B6C8;
+	display: none;
+	float: right;
+	font-size: 16px;
+	line-height: 26px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-shadow: 1px 1px 0 #333333;
+}
+header nav span.search {
+	display: block;
+	float: left;
+}
+header nav span.search a {
+	color: #91B55F;
+}
+header nav span.search .icon {
+	background-position: right -84px;
+	width: 27px;
+}
+header nav span.search .icon:hover {
+	background-position: right -111px;
+}
+header nav .selogin {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sub_me10.png");
+    background-position: right top;
+    height: auto;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    top: 42px;
+	display:none;
+    width: 184px;
+}
+header nav .selogin input[type="text"],header nav .selogin input[type="password"] {
+	text-shadow:#222 1px 1px 0px;
+    background-color: #2D2D2D !important;
+    background-image: none;
+    border-bottom: 1px solid #515152;
+    padding: 8px;
+    width: 91%;
+}
+header nav .selogin label, header nav .selogin a {
+    clear: right;
+    display: block;
+    margin-bottom: 4px;
+}
+header nav .selogin input[type="submit"] {
+    background-color: #41A9BA;
+    border-bottom: 1px solid #2A2A2B;
+    border-radius: 3px 3px 3px 3px;
+    color: #157C8D;
+    float: left;
+    font-size: 15px;
+    padding: 3px;
+    text-shadow: 1px 1px 0 #55C7D6;
+}
+header nav .selogin ul li{
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/hr_vet10.png");
+    background-position: right bottom;
+    background-repeat: repeat-x;
+    color: #959595 !important;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 4px;
+    width: 165px;
+}
+header nav .selogin ul li a {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/ullia10.png");
+    background-position: right -1px;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+header nav .selogin ul li a:hover, header nav .selogin ul li:hover a{
+	background-position: right -32px;
+    color: #4DBECF;
+}
+header nav .selogin .bottomdash {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sub_me10.png");
+    background-position: left bottom;
+    bottom: 78px;
+    display: block;
+    height: 20px;
+    margin-bottom: -90px;
+    position: absolute;
+    right: 0;
+    width: 194px;
+}
+header nav .loginnow, header nav .searchnow{}
+
+
+/* Nav Show And Hide */
+header .hidenav {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/menush10.png");
+    background-position: right bottom;
+    display: none;
+    height: 46px;
+    position: fixed;
+    right: 60px;
+    top: 47px;
+    width: 119px;
+	cursor:pointer;
+	z-index:600;
+}
+header .shownav {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/menush10.png");
+    background-position: right top;
+    cursor: pointer;
+    display: none;
+    height: 46px;
+    position: fixed;
+    right: 60px;
+    top: -9px;
+    width: 119px;
+	z-index:600;
+
+}
+/* header main area */
+header #headcontent {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bgs10.png");
+	background-position: right -61px;
+	clear: both;
+	display: block;
+	height: 166px;
+	width: 100%;
+	margin-top:48px;
+}
+header #headcontent .shinup {
+	background-image: url(http://i39.servimg.com/u/f39/15/53/11/89/lighte10.png);
+	display: block;
+	width: 100%;
+	height: 166px;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+header #headcontent .shinup .w960 {
+	background-image: url(http://i39.servimg.com/u/f39/15/53/11/89/shadow10.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 166px;
+}
+#headcontent .mainlogo {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/logo110.png");
+    background-position: left 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 141px;
+    padding-top: 0;
+    position: relative;
+    width: 290px;
+}
+#headcontent .adv {
+    background-color: #007B96;
+    border-bottom: 1px solid #81D1E1;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    padding: 4px 4px 1px;
+}
+/* Welcome Home */
+#welcome {
+    clear: both;
+    display: block;
+    height: 45px;
+    margin-top: -15px;
+    width: 960px;
+}
+#welcome h1 {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/head_u10.png");
+	background-position: right -50px;
+	background-repeat: no-repeat;
+	color: #3BACC2;
+	float: right;
+	height: 32px;
+	line-height: 26px;
+	padding-right: 46px;
+	width: 120px;
+}
+#welcome p {
+	color: #4BBDCE;
+	float: left;
+	font-family: "MhgozFontl", Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	width: 790px;
+}
+#welcome a, #welcome strong{
+	font-weight:normal !important;
+	color:#666;
+}
+/* Top Slider */
+#slider {
+	width:960px;
+	overflow:hidden;
+}
+#slider .slids {
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 136px;
+    margin: 9px;
+    overflow: hidden;
+    position: relative;
+    width: 221px;
+}
+#slider .slids span.conetnt {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/slider10.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	display: none;
+	font-family: "MhgozFontl", Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	height: 102px;
+	padding: 17px;
+	position: absolute;
+	right: 0;
+	text-shadow: 1px 1px 0 #3B97A4;
+	top: 0;
+	width: 187px;
+}
+#slider .slids span.conetnt a{z-index:777; position:relative;}
+#slider .slids img {
+    height: 135px;
+    width: 221px;
+}
+#slider .slids a{
+	color:#fff;
+	font-weight:normal;
+}
+#slider .slids .mask {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/slider10.png");
+	display: block;
+	height: 136px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 222px;
+}
+#slider .controle {
+	clear: both;
+	float: left;
+	margin-left: 8px;
+	width: 60px;
+}
+#slider .jcarousel-prev, #slider .jcarousel-next {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/head_u10.png");
+	display: block;
+	height: 24px;
+	width: 24px;
+	cursor: pointer;
+	float: left;
+	border-radius:50%;
+}
+#slider .jcarousel-next  {
+	background-position: right -24px;
+}
+#slider .jcarousel-next:hover {
+	background-position: right top;
+}
+#slider .jcarousel-prev {
+    background-position: left -24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+#slider .jcarousel-prev:hover {
+	background-position: left top;
+}
+/*/ || ASIDE - SideBar || /*/
+aside {
+	width: 298px;
+	float: right;
+	margin-left: 17px;
+}
+aside .content {
+	margin-top: 30px;
+}
+aside .content h1 {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+	background-position: right -51px;
+	font-size: 21px;
+	height: 55px;
+	line-height: 50px;
+	color: #5e5e5e;
+	text-shadow: 1px 1px 0px #b8b8b8;
+	cursor: pointer;
+}
+aside .content h1 span {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+	background-position: 70px -107px;
+	display: block;
+	float: right;
+	height: 26px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 13px;
+	width: 26px;
+}
+aside .content div {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/asideb10.png");
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.03) inset;
+    display: table;
+    margin-top: 5px;
+    padding: 10px;
+    position: relative;
+    width: 278px;
+	text-shadow:1px 1px 0px #fff;
+}
+aside .content div .bottome {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bottom10.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    bottom: -22px;
+    display: block;
+    height: 22px;
+    position: absolute;
+    width: 100%;
+}
+/* custome for parts */
+aside .content div img {
+	margin: auto;
+	display: block;
+	border: 4px #CCC solid;
+}
+aside .content h1 .topics {
+	background-position: 46px -107px;
+	width: 23px;
+}
+aside .content h1 .tags {
+	background-position: right -107px;
+	width: 23px;
+}
+aside .content div a.tags {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/tagsbg10.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #7B7B7B;
+    display: block;
+    float: right;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    height: 17px;
+    margin: 5px;
+    padding-right: 22px;
+	cursor:pointer;
+}
+aside .content div a.tags:hover{background-position:right 2px; color:#3A9BAB}
+aside .content div.lasttopic ul li {
+    border-bottom: 1px solid #C1C1C1;
+    border-top: 1px solid #FFFFFF;
+    display: table;
+    width: 100%;
+}
+aside .content div.lasttopic ul li:last-child{border-bottom:none;}
+aside .content div.lasttopic ul li:first-child{border-top:none;}
+aside .content div.lasttopic ul li a {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/topics10.png");
+    background-position: right -46px;
+    background-repeat: no-repeat;
+    color: #7B7B7B;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    height: 38px;
+    margin: 5px;
+    overflow: hidden;
+    padding-right: 22px;
+}
+aside .content div.lasttopic ul li a:hover{background-position:right 4px; color:#41AEC0}
+/*/ || Article , and i mean .. CATS Show || /*/
+
+article {
+	height: auto;
+	margin-top: 30px;
+	width: 645px;
+	float:left;
+	display:inline-block;
+}
+article h1.maintit {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/catsma10.png");
+    background-position: right bottom;
+	color:#DEDEDE;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    height: 42px;
+    margin-bottom: 17px;
+    margin-right: 20px;
+    padding-right: 70px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+	cursor:pointer;
+	clear:both;
+
+}
+article h1.maintit a{color:#A7A7A7;}
+article h1.maintit a:hover,article h1.maintit:hover, article h1.maintit:hover a{
+	background-position:right top;
+	color:#2595A9  ;
+}	
+article .cats {
+    float: right;
+    margin-right: 23px;
+    width: 298px;
+	margin-bottom:25px;
+}
+article .cats h1 {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+    background-position: right top;
+    color: #1f859d;
+    cursor: pointer;
+    font-size: 21px;
+    height: 51px;
+    line-height: 49px;
+    text-shadow: 1px 1px 0 #53c9d6;
+}
+article .cats h1 a{    color: #1f859d;}
+article .cats h1 span {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+    background-position: 102px -107px;
+    display: block;
+    float: right;
+    height: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+    width: 30px;
+}
+article .cats h1 .hide,article .cats h1 .show {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+    display: block;
+    float: left;
+    height: 19px;
+    margin-left: 10px;
+    margin-top: 17px;
+    width: 19px;
+	opacity:0.5;
+}
+article .cats h1 .hide{background-position: 139px -107px;}
+article .cats h1 .hide:hover,article .cats h1 .show:hover{ opacity:1;}
+article .cats h1 .show {background-position:121px -107px; display:none;}
+article .cats div {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/asideb10.png");
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.03) inset;
+    display: block;
+    min-height: 110px;
+    padding: 10px;
+    position: relative;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 278px;
+}
+article .cats div .info{
+	border-bottom:1px solid #C1C1C1;
+	padding-bottom:10px;
+	display:block;
+}
+article .cats div .shinebot {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bottom10.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    bottom: -22px;
+    display: block;
+    height: 22px;
+    position: absolute;
+    width: 100%;
+}
+article .cats div .lasttopic{
+    border-top: 1px solid #FFFFFF;
+    display: table;
+    width: 100%;
+}
+article .cats div .lasttopic a{
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/topics10.png");
+    background-position: right -46px;
+    background-repeat: no-repeat;
+    color: #7B7B7B;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    padding-right: 22px;
+}
+article .cats div .lasttopic a:hover{
+    background-position: right 4px;
+    color: #41AEC0;
+}
+article .cats div .more {
+    display: block;
+    height: 15px;
+    margin-top: 5px;
+	color:#45B7CA;
+}
+article .cats div .more .user, article .cats div .more .topics, article .cats div .more .comment,article .cats div .more h3 span, article .cats div .subcats h3 span {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+    background-position: -17px bottom;
+    display: block;
+    float: left;
+    height: 16px;
+    width: 15px;
+	cursor:pointer;
+}
+article .cats div .more .comment {background-position:-34px bottom;}
+article .cats div .more .comment:hover {background-position:-34px 34px;}
+article .cats div .more .topics{background-position:left bottom;}
+article .cats div .more .topics:hover{background-position:left 33px;}
+article .cats div .more .user:hover{ background-position:-17px 34px;}
+article .cats div .more .userno, article .cats div .more .commentno,article .cats div .more .topicno{
+	display:none;
+	float:left;
+	margin-right:5px;
+	margin-left:3px;
+	font-family:"MhgozFontl",Tahoma,Geneva,sans-serif;
+	font-size:14px;
+}
+article .cats div .subcats {
+    display: none;
+    margin-right: -10px;
+    z-index: 9;
+	font-size:0px;
+}
+article .cats div .subcats h3,article .cats div .more h3{
+	font-size:14px;
+	color:#45B7CA;
+	cursor:pointer;
+}
+article .cats div .more h3:hover, article .cats div .more h3:hover span{color:#7B7B7B; background-position:-53px bottom}
+article .cats div .more h3 span,article .cats div .subcats h3 span {
+    background-position: -53px 33px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 18px;
+}
+article .cats div .subcats h3{clear:both;}
+article .cats div .subcats h3 span{background-position: -53px bottom;}
+article .cats div .subcats h3 span:hover, article .cats div .subcats h3:hover span{background-position: -53px 33px;}
+article .cats div .subcats h3 a{color:#7B7B7B; }
+article .cats div .subcats h3 a:hover,article .cats div .subcats h3:hover a{color:#45B7CA;}
+article .h1descr {
+    color: #6F6F6F;
+    margin-right: 91px;
+	cursor:pointer;
+    margin-top: -23px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+article .cats div .infooflast {
+    clear: both;
+    display: block;
+    font-size: 12px !important;
+    font-weight: bold;
+    padding-right: 25px;
+    width: 100%;
+}
+.fulldew .infooflast{display:none !important;}
+article .cats div .infooflast a {
+    background-image: none !important;
+    clear: none !important;
+    display: inline !important;
+    float: inherit !important;
+    font-family: tahoma !important;
+    font-size: 12px !important;
+    margin: 0 !important;
+    padding-right: 0 !important;
+    width: auto !important;
+}
+article .h1descr:hover{color:#999; font-weight:bold;}
+
+/*/ Footer Layout /*/
+footer {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/mainbg10.png");
+    clear: both;
+    display: block;
+    height: 265px;
+    margin-top: 50px;
+    width: 100%;
+	position:relative;
+}
+footer #shine {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/footer10.png");
+    background-position: center -3px;
+    background-repeat: no-repeat;
+    height: 195px;
+    padding-top: 30px;
+    width: 100%;
+}
+/* sitemap */
+footer #shine .rightare {
+	float: right;
+	display: block;
+	width: 580px;
+	height: 190px;
+}
+footer #shine .sitemap {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/social10.png");
+	background-position: right top;
+	display: block;
+	height: 33px;
+	margin-bottom: 13px;
+	width: 222px;
+}
+footer #shine .rightare ul li {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sp_vet10.png");
+	background-position: left top;
+	background-repeat: repeat-y;
+	float: right;
+	font-family: "MhgozFontl", Tahoma, Geneva, sans-serif;
+	line-height: 22px;
+	margin-left: 10px;
+	margin-right: 0;
+	padding-left: 4px;
+	width: 174px;
+}
+footer #shine .rightare ul li a {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/ullia10.png");
+	background-position: right -7px;
+	background-repeat: no-repeat;
+	color: #818181;
+	cursor: pointer;
+	font-family: "MhgozFontl", Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	padding-right: 13px;
+	text-shadow: 1px 1px 0 #272727;
+}
+footer #shine .rightare ul li a:hover, footer #shine .rightare ul li:hover a {
+	background-position: right -32px;
+	color: #4DBECF;
+}
+/* share */
+footer #shine .leftarea {
+	display: block;
+	float: left;
+	height: 190px;
+	width: 380px;
+}
+footer #shine .leftarea .shareus {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/social10.png");
+	background-position: left top;
+	display: block;
+	float: right;
+	height: 33px;
+	margin-bottom: 13px;
+	width: 194px;
+}
+footer #shine .leftarea #flow {
+	float: left;
+	height: 20px;
+	width: 170px;
+}
+footer #shine .leftarea #flow a {
+	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/social10.png");
+	display: block;
+	float: right;
+	height: 36px;
+	margin-right: 6px;
+	margin-top: -5px;
+	width: 36px;
+	border-radius:50%;
+	cursor: pointer;
+}
+footer #shine .leftarea #flow a.rss {
+	background-position: right -39px;
+}
+footer #shine .leftarea #flow a.rss:hover {
+	background-position: right bottom;
+}
+footer #shine .leftarea #flow a.twitter {
+	background-position: 157px -39px;
+}
+footer #shine .leftarea #flow a.twitter:hover {
+	background-position: 157px bottom;
+}
+footer #shine .leftarea #flow a.facebook {
+	background-position: 118px -39px;
+}
+footer #shine .leftarea #flow a.facebook:hover {
+	background-position: 118px bottom;
+}
+footer #shine .leftarea #flow a.youtube {
+	background-position: 77px -39px
+}
+footer #shine .leftarea #flow a.youtube:hover {
+	background-position: 77px bottom;
+}
+footer #shine .leftarea .rightsnote {
+    clear: both;
+    color: #222222;
+    display: block;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #555555;
+    width: 100%;
+}
+/* rights */
+footer #rights{
+	background-image:url(http://i39.servimg.com/u/f39/15/53/11/89/bgss10.png);
+	background-repeat:repeat-x;
+	height:40px;
+}
+footer #rights .rightssite {
+    color: #555555;
+    float: right;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 17px;
+    line-height: 36px;
+    text-shadow: 1px 1px 1px #111111;
+    width: 50%;
+}
+footer #rights .links{
+	float:left;
+	width:50%;
+}
+footer #rights .links a {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sp_vet10.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #555555;
+    float: left;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    line-height: 37px;
+    margin-right: 10px;
+    padding-left: 10px;
+    text-shadow: 1px 1px 1px #111111;
+}
+footer #rights .links a.lasta{background-image:none; padding-left:0px;}
+footer #rights .links a:hover{color:#ccc;}
+footer #mhgozrights {
+    border-radius: 50% 50% 50% 50%;
+    display: none;
+    height: 78px;
+    position: absolute;
+    right: 49%;
+    width: 77px;
+    z-index: 99;
+}
+footer #mhgozrights .logoos {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/mhgoxr10.png");
+    background-position: right top;
+    height: 78px;
+	display:block;
+    width: 77px;
+	z-index:666;
+	border-radius:50%;
+}
+footer #mhgozrights .logoos:hover{background-position: right bottom;}
+
+/*/ || Custmization on Main VB || /*/
+/* VB Classes */
+/*<!--#inlinemodform, form {
+    margin-right: 23px;
+    width: 622px;
+}-->*/
+.vbmenu_popup, #nav_subsfolders_menu, #inlinemodsel_menu, #minicontact_menu, #forumsearch_menu, #imod_menu, #forumtools_menu, #threadrating_menu, #displaymodes_menu, #threadsearch_menu,#threadtools_menu{
+    background-image:url("http://i39.servimg.com/u/f39/15/53/11/89/asideb10.png");
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+	box-shadow:0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.2) inset;
+    font-weight: bold;
+    padding: 10px;
+    text-shadow: 1px 1px 0 #EBE6DB;
+}
+#forumsearch_menu .vbmenu_option.vbmenu_option_alink a {
+    color: #555555;
+    display: block;
+    font-family: "mhgozfontl",tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 8px auto auto;
+    text-align: center;
+}
+fieldset{display:table;}
+iframe{width:100%;}
+input[type="button"]:hover {
+    background: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png") repeat scroll right -128px transparent;
+    color: #7B7B7B;
+    text-shadow: 1px 1px 0 #F7F7F7;
+}
+input[type="button"] {
+    background: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png") repeat scroll right -166px transparent;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    display: block;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    margin-bottom: 4px;
+    margin-top: 7px;
+    padding: 6px;
+    text-shadow: 1px 1px 0 #1E879E;
+}
+legend {
+    clear: left;
+    display: table;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 100%;
+	text-shadow:1px 1px 0px #fff;
+}
+tbody tr{ border-bottom:1px solid #fff;}
+tbody tr td:first-child{ border-top-right-radius:3px}
+tbody tr td:last-child{ border-top-left-radius:3px;}
+
+.tcat, #forumtools, #forumsearch, #threadtools, #threadsearch, #threadrating, #displaymodes, #imod {
+    background-color: #94F3FC;
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/gradie10.png");
+    background-position: right -80px;
+    color: #FFFFFF;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    padding: 8px;
+    text-shadow: 1px 1px 0 #1F859D;
+}
+.thead, #imod{
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: right -287px;
+    font-family:Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+	font-weight:normal;
+    padding: 5px;
+	color:#7B7B7B;
+	text-shadow:#f7f7f7 1px 1px 0px ;
+}
+#threadslist tr {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/gradie10.png");
+    background-position: right -412px;
+    color: #7B7B7B;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px;
+    text-shadow: 1px 1px 0 #F7F7F7;
+}
+
+#threadslist tr .alt1 {
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 15px;
+    padding-right: 8px;
+}
+
+#threadslist tr .alt2 {
+    font-family: "mhgozfontl",tahoma,geneva,sans-serif;
+    font-size: 13px;
+    padding-bottom: 16px;
+    padding-right: 11px;
+    padding-top: 10px;
+}
+.thead a{color:#7B7B7B;}
+#threadtools a, #threadsearch a, #threadrating a, #displaymodes a, #imod a, .tcat a,#forumtools a,#forumsearch a{color:#fff;}
+/* topcis and sub cats insid */
+.latesttopic {
+    clear: both;
+    font-size: 19px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 90px;
+    margin-top: 10px;
+    width: 500px;
+}
+.latesttopic img{margin-left:10px;}
+.latesttopic a {
+    display: block;
+    float: right;
+    margin-top: -4px;
+}
+.subforumsindex .cats {
+    float: left;
+    width: 560px;
+	clear:both;
+}
+.subforumsindex .cats h1{
+	background-image:none;
+	text-shadow:1px 1px 0px #fff;
+	width:620px;
+}
+.subforumsindex .cats h1 .hide, .subforumsindex .cats h1 .show{display:none;}
+.subforumsindex .cats div{
+	background-image:none;
+    box-shadow:none;
+    width:620px;
+    border:none;
+}
+.subforumsindex .cats .shinebot{ display:none; }
+.subforumsindex .cats .more {
+    color: #45B7CA;
+    display: block;
+    height: 15px;
+    margin-top: 5px;
+    width: 550px;
+}
+.subforumsindex .cats div .info {
+    border: medium none;
+    margin-bottom: 3px;
+    margin-top: -23px;
+    padding-right: 41px;
+}
+.subforumsindex .cats div .info:hover { font-weight:bold;}
+.subforumsindex .cats div .lasttopic {
+    border: medium none;
+    margin-right: 34px;
+    margin-top: -8px;
+}
+.subforumsindex{display:none;}
+.subof .fulldew {
+    border-bottom: 1px solid #C1C1C1;
+    border-top: 0.5px solid #FFFFFF;
+    margin-right: 23px;
+    padding-top: 15px;
+    width: 622px;
+	position:relative;
+}
+/* site States */
+#sitestates {
+    margin-right: 23px;
+    width: 597px;
+}
+#sitestates h1{color:#20889F; text-shadow:1px 1px 0px #fff; margin-top:10px; margin-bottom:10px;font-size:24px; }
+#sitestates h1:first-child span.icons {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/site_u10.png");
+    background-position: -75px bottom;
+    display: block;
+    float: right;
+    height: 29px;
+    margin-left: 10px;
+    width: 27px;
+}
+#sitestates .useronline, #sitestates .statics {
+    border-bottom: 1px solid #FFFFFF;
+    clear: both;
+    cursor: pointer;
+    display: none;
+    padding-bottom: 5px;
+	margin-bottom:10px;
+	width:618px;
+	position:relative;
+}
+#sitestates .useronline a{
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: right bottom;
+    border-radius: 3px 3px 3px 3px;
+    clear: none;
+    float: right;
+    height: 19px;
+    margin: 3px;
+    padding: 3px;
+    text-shadow: 1px 1px 0 #F7F7F7;
+}
+#sitestates .useronline a.main, #sitestates .statics a.main {
+    clear: left;
+    color: #8F8F8F;
+    display: block;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    width: 100%;
+	background-image:none;
+	float:none;
+}
+#sitestates .useronline span, #sitestates .statics span{
+ 	font-weight:bold;
+	color:#E6E6E6;
+	text-shadow:1px 1px 0px #fff;
+}
+#sitestates .useronline:hover span, #sitestates .statics:hover span{
+	color:#8F8F8F;
+}
+#sitestates .useronline img ,#sitestates .statics img{
+	float:right;
+	margin-left:10px;
+}
+/* General Buttons */
+.btfirst{ margin-right:105px !important;}
+.btnwh {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: right -122px;
+    color: #777777;
+    display: block;
+    float: right;
+    font-weight: bold;
+    height: 21px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #F7F7F7;
+    width: 194px;
+}
+.btnwh:hover{
+	background-position:right top;
+	color:#1F8AA0;
+	text-shadow:#61D5E0 1px 1px 0px;
+}
+
+/* General Sprats divS */
+.filldivwide {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: right -286px;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.03) inset;
+    color: #777777;
+    display: block;
+    float: right;
+    font-weight: bold;
+    height: 19px;
+    margin: 5px 23px 5px 5px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #F7F7F7;
+    width: 597px;
+}
+.filldivwide select {
+	margin-top:-3px;
+}
+.filldivwidebl {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/btnsui10.png");
+    background-position: right -164px;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.03) inset;
+    clear: both;
+    color: #1F859D;
+    display: inline-block;
+    float: right;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #53C9D6;
+    width: 100%;
+    z-index: 1;
+}
+/* HardCode Fixing */
+.horsininfo{
+	font-family:"MhgozFontl",Tahoma,Geneva,sans-serif;
+	background-image:url("http://i39.servimg.com/u/f39/15/53/11/89/bg10.png");
+	font-size:14px;
+	border-radius:3px;
+}
+.verticalinfo{
+	width:150px;
+	padding:5px;
+	font-size:14px;
+	font-family:"MhgozFontl",Tahoma,Geneva,sans-serif;
+	background-image:url("http://i39.servimg.com/u/f39/15/53/11/89/bg10.png");
+	border-radius:3px;
+}
+.alt1{padding:5px;}
+.horsininfo input:first-child{margin-top:10px;}
+.horsininfo input,.verticalinfo input {
+    border-color: #777777 !important;
+    border-radius: 4px 4px 4px 4px;
+    color: #777777;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-weight: bold;
+    height: 22px;
+    margin-bottom: 4px;
+    width: 140px;
+}
+marquee {
+    border: 1px solid #777777 !important;
+    border-radius: 5px 5px 5px 5px;
+    height: 70px;
+}
+p.alt2{ width: 610px !important; }
+#collapseobj_beebi_ehdaa div a {
+    display: block;
+    float: left;
+    font-family: "MhgozFontl",Tahoma,Geneva,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.tborder {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/asideb10.png");
+    background-repeat: repeat;
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.03) inset;
+    color: #777777;
+    margin-bottom: -2px;
+    padding: 4px;
+    text-shadow: 1px 1px 0 #F5F5F5;
+}
+
+.signaturuser {
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/bg10.png");
+    border: 1px solid #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 1px transparent, 0 0 15px rgba(0, 0, 0, 0.1) inset;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+#qr_submit, #qr_preview, .button {
+    background-color: #94F3FC !important;
+    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/gradie10.png") !important;
+    border-radius: 3px 3px 3px 3px !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    margin-right: 10px;
+    padding: 3px !important;
+    text-shadow: 1px 1px 0 #1F859D !important;
+}
+.signaturuser img{max-width:400px}
+.panelsurround{max-width:300px !important;}
+.page div:first-child{padding:0px !important}
+.smallfont b{color:#666; text-shadow:1px 1px 0px #fff}
+.vBulletin_editor {
+    border: 0 none!important;
+    display: block!important;
+    padding: 6px!important;
+    width: 98% !important;
+}
