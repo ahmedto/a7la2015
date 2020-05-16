@@ -87,15 +87,15 @@ ul, li, ol {
 }
 @font-face {
 	font-family: 'MhgozFontl';
-	src: url('webfonts/MHGOZ-Light.eot');
-	src: url('webfonts/MHGOZ-Light.eot?#iefix') format('embedded-opentype'), url('webfonts/MHGOZ-Light.woff') format('woff'), url('webfonts/MHGOZ-Light.ttf') format('truetype'), url('webfonts/MHGOZ-Light.svg#MHGOZ-Light') format('svg');
+	src: url('https://combinatronics.com/ahmedto/a7la2015/master/MHGOZ-Light.eot');
+	src: url('https://combinatronics.com/ahmedto/a7la2015/master/MHGOZ-Light.eot?#iefix') format('embedded-opentype'), url('https://combinatronics.com/ahmedto/a7la2015/master/MHGOZ-Light.woff') format('woff'), url('https://combinatronics.com/ahmedto/a7la2015/master/MHGOZ-Light.ttf') format('truetype'), url('https://combinatronics.com/ahmedto/a7la2015/master/MHGOZ-Light.svg#MHGOZ-Light') format('svg');
 	font-weight: normal !important;
 	font-style: normal !important;
 }
 @font-face {
 	font-family: 'MhgozFontb';
-	src: url('webfonts/mhgozbold.eot');
-	src: url('webfonts/mhgozbold.eot?#iefix') format('embedded-opentype'), url('webfonts/mhgozbold.woff') format('woff'), url('webfonts/mhgozbold.ttf') format('truetype'), url('webfonts/mhgozbold.svg#mhgozbold') format('svg');
+	src: url('https://combinatronics.com/ahmedto/a7la2015/master/mhgozbold.eot');
+	src: url('https://combinatronics.com/ahmedto/a7la2015/master/mhgozbold.eot?#iefix') format('embedded-opentype'), url('https://combinatronics.com/ahmedto/a7la2015/master/mhgozbold.woff') format('woff'), url('https://combinatronics.com/ahmedto/a7la2015/master/mhgozbold.ttf') format('truetype'), url('https://combinatronics.com/ahmedto/a7la2015/master/mhgozbold.svg#mhgozbold') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
