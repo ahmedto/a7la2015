@@ -230,17 +230,7 @@ header nav {
 	top:0px;
 	z-index:99
 }
-header nav .home {
-    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/logo110.png");
-    background-position: 262px top;
-    display: none;
-    float: right;
-    font-size: 0;
-    height: 41px;
-    margin-left: 10px;
-    margin-top: -3px;
-    width: 122px;
-}
+
 header nav .home:hover{ background-position:right top;}
 header nav ul li {
 	background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/sp_vet10.png");
@@ -475,18 +465,7 @@ header #headcontent .shinup .w960 {
 	background-position: center bottom;
 	height: 166px;
 }
-#headcontent .mainlogo {
-    background-image: url("http://i39.servimg.com/u/f39/15/53/11/89/logo110.png");
-    background-position: left 30px;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    display: block;
-    float: right;
-    height: 141px;
-    padding-top: 0;
-    position: relative;
-    width: 290px;
-}
+
 #headcontent .adv {
     background-color: #007B96;
     border-bottom: 1px solid #81D1E1;
